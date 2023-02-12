@@ -5,6 +5,8 @@ public class Phone {
     public Phone(String phoneNumber, String phoneModel, int phoneWeight) {
         this(phoneNumber, phoneModel);
         weight = phoneWeight;
+        System.out.print(phoneNumber + " " +  phoneModel + " ");
+        System.out.print(phoneWeight + "\n");
     }
     public void receiveCall(String receive) {
         System.out.println("Звонит:" + receive);
